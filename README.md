@@ -55,7 +55,7 @@ Next, install the application dependencies.
 	
 Finally, run the node server locally.
 
-	cd clickyGame1, yarn install, yarn start
+	cd my-app, yarn install, yarn start
 	
 Now, open the local application on port 3000 at the URL: `https://github.com/chehlsee/chehlseeClickyGame.git`.
 
