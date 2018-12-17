@@ -1,29 +1,44 @@
 import React, {
-  Compontent
+  Component
 } from "React";
 import FriendCard from "../src/compontents/FriendCard";
 import Wrapper from "../src/compontents/Wrapper";
 import Title from "../src/components/Title";
 import friends from "./friends.json";
+// Navbar and footer not connected?
 import Navbar from "../src/components/Navbar";
 import Footer from 
 "../src/components/Footer";
 // this is not connected
 import "./App.css";
 
-export class App extends Component {
-  render(){
-    return (
+// class App extends Component {
+  // render(){
+    // return (
   // setting this.state.friends to the friends json array this is similar to the inclass assignment
-  state ={
-    friends,
-    imageClicked: [],
-    score: 0,
-    highScore: 0,
-    printResult: "",
-  }
-    );
-  }
+  // state ={
+    // friends,
+    // imageClicked: [],
+    // score: 0,
+    // highScore: 0,
+    // printResult: "",
+  // }
+    // );
+  // }
+
+  class App extends Component {
+    // setting this.state.friends to friends json array
+    state= {
+      friends
+    };
+
+    // filter this.state.friends for friends with an id not equal to the id that is being removed
+    // set this.friends.state.friends equal to the new friends array
+    
+    removeFriend = id => {
+      const friends = this/state.friends.filter(friend => friend.id !== id);
+      this.setState({friends});
+    };
 
 
   userClick = event => {
