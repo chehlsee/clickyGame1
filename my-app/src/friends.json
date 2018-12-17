@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "HelloKitty",
+    "image": "https://www.sanrio.co.jp/wp-content/uploads/2013/09/hellokitty_b.png"
+
+  },
+  {
+    "id": 2,
+    "name": "MyMelody",
+    "image": "https://www.sanrio.co.jp/wp-content/uploads/2013/09/mymelody_b.png"
+  },
+  {
+    "id": 3,
+    "name": "Chococat",
+    "image": "https://www.sanrio.co.jp/wp-content/uploads/2013/09/chococat_b.png"
+
+  },
+  {
+    "id": 4,
+    "name": "Bad Badtz-Maru",
+    "image": "https://www.sanrio.co.jp/wp-content/uploads/2013/09/badtzmaru_b.png" 
+  },
+  {
+    "id": 5,
+    "name": "Kero Kero Keroppi",
+    "image": "https://www.sanrio.co.jp/wp-content/uploads/2013/09/kerokerokeroppi_b.png"
+  },
+  {
+    "id": 6,
+    "name": "Cinnamoroll",
+    "image": "https://www.sanrio.co.jp/wp-content/uploads/2013/09/cinnamoroll_b.png"
+  },
+  {
+    "id": 7,
+    "name": "Pom Pom Purin",
+    "image": "https://www.sanrio.co.jp/wp-content/uploads/2013/09/pompompurin_b.png"
+  },
+  {
+    "id": 8,
+    "name": "Tuxedosam",
+    "image": "https://www.sanrio.co.jp/wp-content/uploads/2013/09/tuxedosam_b.png"
+  },
+  {
+    "id": 9,
+    "name": "Gudetama",
+    "image": "https://www.sanrio.co.jp/wp-content/uploads/2014/03/gudetama_b.png"
+  },
+  {
+    "id": 10,
+    "name": "BonBonRibbon",
+    "image": "https://www.sanrio.co.jp/wp-content/uploads/2013/09/bonbonribbon_b.png"
+  }
+]
