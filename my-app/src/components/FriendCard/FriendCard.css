@@ -11,6 +11,7 @@
 
 .card > .image-container {
   height: 60%;
+  width: 60%;
   overflow:hidden;
   text-align: center;
   background: lightblue;

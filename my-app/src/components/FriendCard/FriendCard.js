@@ -1,6 +1,6 @@
 import React from "react";
-// i am not able to connect this file I'm not sure why???
-import "./FriendCard.css";
+
+import "../FriendCard/Style.css";
 
 // set props for FriendCard
 const FriendCard = props => (
@@ -24,7 +24,7 @@ const FriendCard = props => (
   </ul>
   </div>
   {/* remove */}
-  <span onClick={() => props.removeFriend(props.id)} className="remove">
+ <span onClick={() => props.removeFriend(props.id)} className="remove"> 
   </span>
   </div>
   </div>
@@ -32,4 +32,5 @@ const FriendCard = props => (
 );
 
 export default FriendCard;
+export {default} from "../FriendCard";
 
